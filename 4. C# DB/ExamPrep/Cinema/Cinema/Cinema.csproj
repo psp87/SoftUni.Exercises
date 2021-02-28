@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200207103023_Initial.cs" />
+    <Compile Remove="Migrations\20200207103023_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200207103452_Initial.cs" />
+    <Compile Remove="Migrations\20200207103452_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200207104123_Initial.cs" />
+    <Compile Remove="Migrations\20200207104123_Initial.Designer.cs" />
+  </ItemGroup>
+  
+    <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+  
+    <ItemGroup>
+      <Folder Include="DataProcessor\ExportDto\" />
+    </ItemGroup>
+
+
+</Project>

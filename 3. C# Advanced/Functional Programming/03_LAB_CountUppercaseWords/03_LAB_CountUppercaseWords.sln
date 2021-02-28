@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_LAB_CountUppercaseWords", "03_LAB_CountUppercaseWords\03_LAB_CountUppercaseWords.csproj", "{1A72CBDC-75FF-4214-8522-B6019BBD959B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A72CBDC-75FF-4214-8522-B6019BBD959B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A72CBDC-75FF-4214-8522-B6019BBD959B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A72CBDC-75FF-4214-8522-B6019BBD959B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A72CBDC-75FF-4214-8522-B6019BBD959B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60A984B4-53C9-42DC-9C3D-3E80601E9F7D}
+	EndGlobalSection
+EndGlobal
